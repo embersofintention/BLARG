@@ -34,7 +34,7 @@ jobs:
 
       - name: Build Site
         # Replace the URL below with your actual GitHub Pages URL
-        run: ./kiln generate --url "https://embersofintention.github.io/BLARG"
+        run: ./kiln generate --input "./ObsidianVault"  --url "https://embersofintention.github.io/BLARG"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
